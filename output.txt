@@ -102,3 +102,29 @@ Dictionary example:
 	a leather/plastic binder
 Example from article:
 	LBDD is based on known active binders of a biological target, and FBDD identifies small molecular fragments with weak affinity for a biomolecular target of interest and assembles them into fully druglike compounds.
+
+"Architecture":
+Definition:
+	the art and practice of designing and making buildings
+Dictionary example:
+	to study architecture
+Example from article:
+	MolGAN-CQ Architecture and Training Details.
+
+"Synthesized":
+Definition:
+	to produce a substance by a chemical reaction in plants or animals
+Dictionary example:
+	There are many vitamins that the body cannot synthesize itself.
+
+"synthesis":
+Definition:
+	the production of a substance from simpler materials after a chemical reacti
+Dictionary example:
+	He describes his latest record as "a synthesis of African and Latin rhythms".
+
+"Noises":
+Definition:
+	a sound or sounds, especially when it is unwanted, unpleasant, or loud
+Dictionary example:
+	The noise out in the street was deafening.

@@ -42,13 +42,14 @@ def process_word(word, sentences, output_file):
     sentences (list): List of sentences from the article.
     output_file (file object): File to write the output to.
     """
-    result = fetch_definition(word)
+    result = fetch_definition(word.strip().capitalize())
     if not result:
-        print("Word {} not found in the dictionary!".format(word))
+        print("Word {} not found in the dictionary!".format(word.strip().capitalize()))
         return
 
     definition, example = result
-    print("\n\"{}\":\nDefinition:\n\t{}\nDictionary example:\n\t{}".format(word, definition, example), file=output_file)
+    print("\n\"{}\":\nDefinition:\n\t{}\nDictionary example:\n\t{}".format(word.strip().capitalize(), definition,
+                                                                           example), file=output_file)
 
     present = False
     for sentence in sentences:
@@ -87,7 +88,7 @@ def interact_with_user(text, sentences, output_file):
         if not word:
             continue
 
-        prompt = "Do you want to use the word \"{}\" (y/m - use/modify, r - next word, n/q - quit): ".format(word)
+        prompt = "Do you want to use the word \"{}\" (y/m - use/modify, r - next word, n/q - quit): ".format(word.strip().capitalize())
         print(prompt, end="")
         key = input("Choose option: ")[0].lower()  # Get the first character of input
         if key == 'y':
