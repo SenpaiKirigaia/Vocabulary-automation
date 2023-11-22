@@ -1,9 +1,8 @@
-import sys
+import argparse
+import re
+import fitz  # pip install PyMuPDF
 import requests
 from bs4 import BeautifulSoup
-import fitz
-import getch
-import re
 
 
 def fetch_definition(word):
@@ -80,11 +79,7 @@ def load_pdf_text(file_name):
 def interact_with_user(text, sentences, output_file):
     """
     Interactive mode where the user can choose words to process.
-
-    Args:
-    text (str): Full text of the PDF.
-    sentences (list): List of sentences from the article.
-    output_file (file object): File to write the output to.
+    (Modified to use input() instead of getch.getch())
     """
     words = set(text.replace('\n', ' ').split(' '))
     for raw_word in words:
@@ -92,53 +87,34 @@ def interact_with_user(text, sentences, output_file):
         if not word:
             continue
 
-        prompt = "\rDo you want to use the word \"{}\" (y/m - modify and use/n/q - quit): ".format(word)
+        prompt = "Do you want to use the word \"{}\" (y/m - modify and use, r - next word, n/q - quit): ".format(word)
         print(prompt, end="")
-        key = getch.getch()
+        key = input("Choose option: ")[0].lower()  # Get the first character of input
         if key == 'y':
             process_word(word, sentences, output_file)
         elif key == 'm':
-            print("Enter the word you want to look up:")
-            word = input()
+            word = input("Enter the word you want to look up: ")
             process_word(word, sentences, output_file)
-        elif key == 'q':
+        elif key == 'r':
+            continue
+        elif key == 'q' or key == 'n':
             print("Quitting...")
             break
-        print("\r" + " " * len(prompt), end='\r')
 
 
 if __name__ == "__main__":
-    if len(sys.argv) <= 2:
-        print("USAGE: ./Vocab.py [-i] [-c] ARTICLE_NAME.pdf [-o OUTPUT_FILE] WORD_1 WORD_2 WORD_3...")
-        print("\t-i is interactive mode")
-        print("\t-c counts the number of definitions present in file. Useful when running the script several times")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description='Process words from a PDF file.')
+    parser.add_argument('file', help='PDF file to process')
+    parser.add_argument('-o', '--output', default='output.txt', help='Output file name (default: output.txt)')
 
-    interactive = '-i' in sys.argv
-    count_definitions = '-c' in sys.argv
-    output_index = next((i for i, arg in enumerate(sys.argv) if arg == '-o'), None)
-    output_file = None
-    file_name = sys.argv[1]
+    args = parser.parse_args()
 
-    if output_index is not None:
-        if len(sys.argv) < output_index + 2:
-            print("ERROR: Output file should be specified after the -o flag")
-            sys.exit(-1)
-        output_file = open(sys.argv[output_index + 1], "a+")
-        if count_definitions:
-            output_file.seek(0)
-            previous_text = output_file.read()
-            print("Number of defined words: ", previous_text.count("Definition"))
-
-    text = load_pdf_text(file_name)
+    output_file = open(args.output, "a+", encoding='utf-8')
+    text = load_pdf_text(args.file)
     sentences = text.split('.')
+    interact_with_user(text, sentences, output_file)
+    output_file.seek(0)
+    previous_text = output_file.read()
+    print("Number of defined words: ", previous_text.count("Definition"))
 
-    if interactive:
-        interact_with_user(text, sentences, output_file)
-    else:
-        words = sys.argv[2:]
-        for word in words:
-            process_word(word, sentences, output_file)
-
-    if output_file:
-        output_file.close()
+    output_file.close()

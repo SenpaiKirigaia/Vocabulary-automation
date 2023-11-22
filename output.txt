@@ -1,0 +1,104 @@
+
+"score":
+Definition:
+	to win or get a point, goal, etc. in a competition, sport, or game
+Dictionary example:
+	Tennant scored in the last minute of the game.
+Example from article:
+	In the end, we demonstrate that the quantum discriminator of GAN outperforms the classical counterpart in terms of generated molecule properties and KL-divergence score.
+
+"feasible":
+Definition:
+	able to be made, done, or achieved
+Dictionary example:
+	With the extra resources, the project now seems feasible.
+Example from article:
+	provided the first feasible implementation of QuGAN using quantum circuits in a simulator.
+
+"fibrosis":
+Definition:
+	the formation of too much fibrous tissue as a result of healing, inflammation, or irritation
+Dictionary example:
+	Nonalcoholic fatty liver disease may progress to liver fibrosis and cirrhosis.
+Example from article:
+	4−9 For example, our team10 discovered potent inhibitors of discoidin domain receptor 1 (DDR1), a kinase target implicated in fibrosis and other diseases, in 21 days.
+
+"simulator":
+Definition:
+	a piece of equipment that is designed to represent real conditions, for example in an aircraft or spacecraft
+Dictionary example:
+	People learning to fly often practise on a flight simulator.
+Example from article:
+	provided the first feasible implementation of QuGAN using quantum circuits in a simulator.
+
+"Metal":
+Definition:
+	a chemical element, such as iron or gold, or a mixture of such elements, such as steel, that is generally hard and strong, and through which electricity and heat can travel
+Dictionary example:
+	Metal, paper, and glass can be recycled.
+Example from article:
+	The average training time per step takes ∼39 s in the Amazon EC2 C6a Metal Instance, which results in ∼3.
+
+"performance":
+Definition:
+	how well a person, machine, etc. does a piece of work or an activity
+Dictionary example:
+	He was an experienced player who was always seeking to improve his performance.
+Example from article:
+	Utilizing a VQC in the noise generator of a GAN to generate small molecules achieves better physicochemical properties and performance in the goaldirected benchmark than the classical counterpart.
+
+"networks":
+Definition:
+	a large system consisting of many similar parts that are connected together to allow movement or communication between or along the parts, or between the parts and a control centre
+Dictionary example:
+	a television network
+Example from article:
+	This article explores hybrid quantumclassical generative adversarial networks (GAN) for small molecule discovery.
+
+"details":
+Definition:
+	information about someone or something
+Dictionary example:
+	take down the details of A police officer took down the details of what happened.
+Example from article:
+	In the following subparagraphs, we first present our proposed MolGAN-CQ and the training details.
+
+"DISCUSSION":
+Definition:
+	the activity in which people talk about something and tell each other their ideas or opinions
+Dictionary example:
+	hold/have discussions with We will hold/have discussions with employee representatives about possible redundancies.
+Example from article:
+	■ COMPUTATIONAL RESULTS AND DISCUSSION In this study, we would like to computationally explore the potential benefits of our algorithms as compared to classical algorithms in small molecule discovery.
+
+"discovery":
+Definition:
+	the process of finding information, a place, or an object, especially for the first time, or the thing that is found
+Dictionary example:
+	discovery of Who is credited with the discovery of electricity?
+Example from article:
+	Recent advances in machine learning and deep learning technology have reduced the time and cost of the discovery process and therefore, improved pharmaceutical research and development.
+
+"chemical":
+Definition:
+	any basic substance that is used in or produced by a reaction involving changes to atoms or molecules
+Dictionary example:
+	The government has pledged to reduce the amount of chemicals used in food production.
+Example from article:
+	Utilizing a VQC in the noise generator of a GAN to generate small molecules achieves better physicochemical properties and performance in the goaldirected benchmark than the classical counterpart.
+
+"extremely":
+Definition:
+	very
+Dictionary example:
+	They played extremely well.
+Example from article:
+	MolGAN-CC-ER (extremely reduction) has three layers with sizes (450, 50, 1) in the discriminator, and the total parameter size is 22 000.
+
+"binders":
+Definition:
+	a hard cover in which paper documents or magazines are stored
+Dictionary example:
+	a leather/plastic binder
+Example from article:
+	LBDD is based on known active binders of a biological target, and FBDD identifies small molecular fragments with weak affinity for a biomolecular target of interest and assembles them into fully druglike compounds.
