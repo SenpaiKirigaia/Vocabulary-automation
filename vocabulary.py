@@ -87,7 +87,7 @@ def interact_with_user(text, sentences, output_file):
         if not word:
             continue
 
-        prompt = "Do you want to use the word \"{}\" (y/m - modify and use, r - next word, n/q - quit): ".format(word)
+        prompt = "Do you want to use the word \"{}\" (y/m - use/modify, r - next word, n/q - quit): ".format(word)
         print(prompt, end="")
         key = input("Choose option: ")[0].lower()  # Get the first character of input
         if key == 'y':
