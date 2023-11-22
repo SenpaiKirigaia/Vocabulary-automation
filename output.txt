@@ -1,130 +1,201 @@
 
-"score":
+encouraged:
 Definition:
-	to win or get a point, goal, etc. in a competition, sport, or game
+	having more confidence or hope about something:
 Dictionary example:
-	Tennant scored in the last minute of the game.
+	She felt encouraged by their promise of support.
 Example from article:
-	In the end, we demonstrate that the quantum discriminator of GAN outperforms the classical counterpart in terms of generated molecule properties and KL-divergence score.
+	occasionally encouraged the chimpanzee to watch the monitor if her attention appeared to wane.
 
-"feasible":
+stimulus:
 Definition:
-	able to be made, done, or achieved
+	something that causes growth or activity:
 Dictionary example:
-	With the extra resources, the project now seems feasible.
+	Foreign investment has been a stimulus to the industry.
 Example from article:
-	provided the first feasible implementation of QuGAN using quantum circuits in a simulator.
+	Ai watches a yawn on the screen (top left), starts to yawn as the stimulus yawn ends (top right), continues to yawn (bottom left), and completes the yawn while the screen is blank (bottom right).
 
-"fibrosis":
+correspondence:
 Definition:
-	the formation of too much fibrous tissue as a result of healing, inflammation, or irritation
+	letters, especially official or business letters:
 Dictionary example:
-	Nonalcoholic fatty liver disease may progress to liver fibrosis and cirrhosis.
+	Any further correspondence should be sent to my new address.
 Example from article:
-	4−9 For example, our team10 discovered potent inhibitors of discoidin domain receptor 1 (DDR1), a kinase target implicated in fibrosis and other diseases, in 21 days.
+	Anderson1*, Masako Myowa Yamakoshi2 and Tetsuro Matsuzawa3 1Department of Psychology, University of Stirling, Stirling FK9 4LA, UK 2The University of Shiga Prefecture, School of Human Cultures, Hikone, Shiga 522 8533, Japan 3Primate Research Institute, Kyoto University, Inuyama, Aichi 484 8501, Japan * Author for correspondence ( jra1@stir.
 
-"simulator":
+species:
 Definition:
-	a piece of equipment that is designed to represent real conditions, for example in an aircraft or spacecraft
+	a set of animals or plants in which the members have similar characteristics to each other and can breed with each other:
 Dictionary example:
-	People learning to fly often practise on a flight simulator.
+	Mountain gorillas are an endangered species.
 Example from article:
-	provided the first feasible implementation of QuGAN using quantum circuits in a simulator.
+	Quantitative analysis and study of causation in two species of Old World monkeys (Cercocebus albigena and Macaca fascicularis).
 
-"Metal":
+cognition:
 Definition:
-	a chemical element, such as iron or gold, or a mixture of such elements, such as steel, that is generally hard and strong, and through which electricity and heat can travel
+	the use of conscious mental processes:
 Dictionary example:
-	Metal, paper, and glass can be recycled.
+	a book on human learning, memory, and cognition
 Example from article:
-	The average training time per step takes ∼39 s in the Amazon EC2 C6a Metal Instance, which results in ∼3.
+	It has been suggested that contagious yawning reflects a basic capacity for empathy (Lehmann 1979), and a recent study linked human individual differences in susceptibility to contagious yawning to differences in empathic tend  encies, self recognition ability and theory of mind (Platek et al.
 
-"performance":
+vertebrate:
 Definition:
-	how well a person, machine, etc. does a piece of work or an activity
+	having a spine (= back bone)
 Dictionary example:
-	He was an experienced player who was always seeking to improve his performance.
+	Birds, fish, and reptiles are all vertebrates.
 Example from article:
-	Utilizing a VQC in the noise generator of a GAN to generate small molecules achieves better physicochemical properties and performance in the goaldirected benchmark than the classical counterpart.
+	Although yawning is widespread among vertebrate spe  cies, contagious yawning has been reported only in humans (Lehmann 1979; Baenninger 1987; Smith 1999).
 
-"networks":
+Ethology:
 Definition:
-	a large system consisting of many similar parts that are connected together to allow movement or communication between or along the parts, or between the parts and a control centre
+	the scientific study of the behaviour of animals in their natural environment:
 Dictionary example:
-	a television network
+	The documentary was about ethology, the study of animal behaviour, and about Konrad Lorenz, one of the field's founders.
 Example from article:
-	This article explores hybrid quantumclassical generative adversarial networks (GAN) for small molecule discovery.
+	Ethology 98, 221–245.
 
-"details":
+zees:
 Definition:
-	information about someone or something
+	the last letter of the English alphabet; Z:
 Dictionary example:
-	take down the details of A police officer took down the details of what happened.
+	As far as "zee vs. zed" goes, we Canadians still say "zed."
 Example from article:
-	In the following subparagraphs, we first present our proposed MolGAN-CQ and the training details.
+	Contagious yawning in chimpanzees James R.
 
-"DISCUSSION":
+phylogenetic:
 Definition:
-	the activity in which people talk about something and tell each other their ideas or opinions
+	relating to the development of organisms over time, including how they separate into different groups :
 Dictionary example:
-	hold/have discussions with We will hold/have discussions with employee representatives about possible redundancies.
+	Existing phylogenetic hypotheses about human evolution are unlikely to be reliable.
 Example from article:
-	■ COMPUTATIONAL RESULTS AND DISCUSSION In this study, we would like to computationally explore the potential benefits of our algorithms as compared to classical algorithms in small molecule discovery.
+	We assessed whether chimpanzees—humans’ nearest phylogenetic neighbours—are prone to contagious yawning when exposed to videotapes showing yawning of conspecifics.
 
-"discovery":
+Converging:
 Definition:
-	the process of finding information, a place, or an object, especially for the first time, or the thing that is found
+	If lines, roads, or paths converge, they move towards the same point where they join or meet:
 Dictionary example:
-	discovery of Who is credited with the discovery of electricity?
+	converge at The paths all converge at the main gate of the park. (Source: Cambridge Dictionary)
 Example from article:
-	Recent advances in machine learning and deep learning technology have reduced the time and cost of the discovery process and therefore, improved pharmaceutical research and development.
+	Converging blockchain and next generation artificial intelligence technologies to decentralize and accelerate biomedical research and healthcare.
 
-"chemical":
+Concatenating:
 Definition:
-	any basic substance that is used in or produced by a reaction involving changes to atoms or molecules
+	To put things together as a connected series:
 Dictionary example:
-	The government has pledged to reduce the amount of chemicals used in food production.
+	The filename is a series of concatenated words with no spaces. (Source: Cambridge Dictionary)
 Example from article:
-	Utilizing a VQC in the noise generator of a GAN to generate small molecules achieves better physicochemical properties and performance in the goaldirected benchmark than the classical counterpart.
+	The final molecular graph is constructed by concatenating all the partial patches together.
 
-"extremely":
+Biomarker:
 Definition:
-	very
+	Something, for example a gene or substance, that shows that a particular biological process or condition is present:
 Dictionary example:
-	They played extremely well.
+	The Johns Hopkins team have identified a genetic change, or biomarker, that can be measured in the blood of colon cancer patients. (Source: Cambridge Dictionary)
 Example from article:
-	MolGAN-CC-ER (extremely reduction) has three layers with sizes (450, 50, 1) in the discriminator, and the total parameter size is 22 000.
+	Artificial intelligence for drug discovery, biomarker development, and generation of novel chemistry.
 
-"binders":
+Metrics:
 Definition:
-	a hard cover in which paper documents or magazines are stored
+	A set of numbers that give information about a particular process or activity:
 Dictionary example:
-	a leather/plastic binder
+	Do you have any metrics on the rate of usage for the service? (Source: Cambridge Dictionary)
 Example from article:
-	LBDD is based on known active binders of a biological target, and FBDD identifies small molecular fragments with weak affinity for a biomolecular target of interest and assembles them into fully druglike compounds.
+	2023, 63, 3307−3318 Read Online ACCESS Metrics & More Article Recommendations * sı Supporting Information ABSTRACT: De novo drug design with desired biological activities is crucial for developing novel therapeutics for patients.
 
-"Architecture":
+Partition:
 Definition:
-	the art and practice of designing and making buildings
+	A vertical structure like a thin wall that separates one part of a room or building from another:
 Dictionary example:
-	to study architecture
+	The partitions between the toilets were very thin. (Source: Cambridge Dictionary)
 Example from article:
-	MolGAN-CQ Architecture and Training Details.
+	Solubility reports the n octanol−water partition coefficient (logP)71 of the molecule that is the degree of a molecule being hydrophilic.
 
-"Synthesized":
+Patterns:
 Definition:
-	to produce a substance by a chemical reaction in plants or animals
+	A particular way in which something is done, is organized, or happens:
 Dictionary example:
-	There are many vitamins that the body cannot synthesize itself.
+	The pattern of family life has been changing over recent years. (Source: Cambridge Dictionary)
+Example from article:
+	A deep learning system accurately classifies primary  and metastatic cancers using passenger mutation patterns.
 
-"synthesis":
+Metastasis:
 Definition:
-	the production of a substance from simpler materials after a chemical reacti
+	The spread of a disease, especially cancer, from the place where it started in the body to other areas:
 Dictionary example:
-	He describes his latest record as "a synthesis of African and Latin rhythms".
+	Patients with kidney metastasis typically have cancerous cell growth in both kidneys. (Source: Cambridge Dictionary)
+Example from article:
+	OncoNPC was trained and validated on the processed data consisting  of 29,176 primary and metastasis tumor samples from 22 known cancer  types collected at the DFCI, Memorial Sloan Kettering (MSK) Cancer  Center and Vanderbilt Ingram Cancer Center (VICC; refer to Table 1  for details regarding patient demographics, modeled cancer types  and their corresponding abbreviations).
 
-"Noises":
+Gastrointestinal:
 Definition:
-	a sound or sounds, especially when it is unwanted, unpleasant, or loud
+	In or relating to both the stomach and the intestine (= the long tube that food passes through after the stomach):
 Dictionary example:
-	The noise out in the street was deafening.
+	the gastrointestinal tract (Source: Cambridge Dictionary)
+Example from article:
+	5%) Upper  gastrointestinal Esophagogastric adenocarcinoma (EGC) 988 (5.
+
+Quartile:
+Definition:
+	One of four equal measurements that a set of things can be divided into:
+Dictionary example:
+	He is in the top quartile for weight. (Source: Cambridge Dictionary)
+Example from article:
+	At pmax ≥ 0, common  cancer types in the upper quartile in terms of the number of tumor  samples (NSCLC, BRCA, COADREAD, DIFG, PRAD and PAAD) had a mean  F1 score of 0.
+
+Heterogeneous:
+Definition:
+	Consisting of parts or things that are very different from each other:
+Dictionary example:
+	Switzerland is a heterogeneous confederation of 26 self-governing cantons. (Source: Cambridge Dictionary)
+Example from article:
+	Retrospective electronic health record (EHR) data, despite poten  tial biases, can capture a larger and more heterogeneous patient  population compared to prospective trials.
+
+Delineating:
+Definition:
+	Present participle of 
+delineate
+Dictionary example:
+	The main characters are clearly delineated in the first chapter. (Source: Cambridge Dictionary)
+Example from article:
+	DeconstructSigs: delineating mutational processes  in single tumors distinguishes DNA repair deficiencies and  patterns of carcinoma evolution.
+
+Invasive:
+Definition:
+	Moving into all areas of something and difficult to stop:
+Dictionary example:
+	an invasive disease (Source: Cambridge Dictionary)
+Example from article:
+	9%) Invasive breast carcinoma (BRCA) 2,558 (13.
+
+Margins:
+Definition:
+	The amount by which one thing is different from another:
+Dictionary example:
+	The Senate approved the use of military force by a margin of 52 votes to 47. (Source: Cambridge Dictionary)
+Example from article:
+	Unfavourable prognosis associated with K ras   gene mutation in pancreatic cancer surgical margins.
+
+Malignant:
+Definition:
+	A malignant disease or growth is cancer or is related to cancer, and is likely to be harmful:
+Dictionary example:
+	The process by which malignant cancer cells multiply isn't fully understood. (Source: Cambridge Dictionary)
+Example from article:
+	Pathology assessment has a key role in determining primary cancer  types of malignant tumors based on immunohistochemistry (IHC)  results as well as tumor morphology and clinical findings; however,  pathological diagnosis can be challenging for highly metastatic or  poorly differentiated tumors.
+
+Metastatic:
+Definition:
+	Relating to metastasis (= the spread of a disease, especially cancer, from the place where it started in the body):
+Dictionary example:
+	metastatic breast cancer/prostate cancer (Source: Cambridge Dictionary)
+Example from article:
+	When a standardized diagnostic workup, including radiology and  pathology assessments, fails to locate the primary site of a metastatic  cancer, it is diagnosed as cancer of unknown primary (CUP).
+
+Stratification:
+Definition:
+	The fact that the different parts of something exist in or have been arranged into separate groups:
+Dictionary example:
+	The prime minister wants to reduce social stratification and make the country a classless society. (Source: Cambridge Dictionary)
+Example from article:
+	00 … OncoNPC : XGBoost based primary cancer type classifier (n = 36,465 tumor samples with known primary cancer types) Somatic mutations: SNVs and indels Copy number alterations (CNA) Mutation signature  Prediction probabilities across 22 cancer types Model performance evaluation Model interpretation Actionable molecular  alterations Efect of OncoNPC treatment  concordance on prognosis Clinical utility of OncoNPC classifications for patients with CUP Subgroup D Subgroup C Subgroup B Subgroup A Survival probability Time Risk stratification among patients with CUP Recall Precision Precision Recall Cancer centers Ethnicities Somatic mutation Age/ sex CNA events Mutation signature ntarget/ntotal Model evaluation and interpretation OncoNPC predictions for held out CKP tumors OncoNPC predictions for  CUP tumors Prognostic somatic variants Germline PRS validation for CUP tumor samples Germline PRS enrichment Prediction confidence Cancer GWAS PRS OncoKB precision  oncology database  Targeted clinical NGS assays : DFCI OncoPanel, MSK IMPACT and VICC panel Somatic variants pre processing In house follow up and clinical outcome database Treatment plans database a b c e f g d h –log(P value) Hazard ratio Survival probability Time  Concordant group Discordant group A B C D E OncoNPC  predicted cancer subgroups 0 0.
